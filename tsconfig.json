@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "emitDeclarationOnly": true,
+    "declaration": true
+  },
+  "include": [
+    "**/*.js",
+    "node_modules/example/**/*.js"
+  ]
+}

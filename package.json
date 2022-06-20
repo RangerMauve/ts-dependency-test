@@ -1,0 +1,23 @@
+{
+  "name": "ts-dependency-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Testing out how to use typescript annotations with dependencies",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/ts-dependency-test.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/ts-dependency-test/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/ts-dependency-test#readme"
+}
