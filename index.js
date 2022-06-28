@@ -1,9 +1,7 @@
 // @ts-check
 
-///**
-// * @type {typeof import("example") }
-// */
 import example from "example"
+import something from "example/other"
 
 /**
  * @type {string}
@@ -11,6 +9,11 @@ import example from "example"
 export const first = "Hello World";
 
 /**
- * @type {number}
+ * @type {string}
  */
 export const second = example(first)
+
+/**
+ * @type {string}
+ */
+export const third = something()

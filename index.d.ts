@@ -3,6 +3,10 @@
  */
 export const first: string;
 /**
- * @type {number}
+ * @type {string}
  */
-export const second: number;
+export const second: string;
+/**
+ * @type {string}
+ */
+export const third: string;
